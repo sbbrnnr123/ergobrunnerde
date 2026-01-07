@@ -1,5 +1,5 @@
 {
-  "baseURL": "https://ffw.web-sb.de/",
+  "baseURL": "https://ergobrunner.web-sb.de",
   "languageCode": "de-de",
   "title": "Ergotherapie Brunner - Unser Wissen für Ihre Gesundheit",
   "minify": true,
@@ -29,32 +29,31 @@
     },
     "description": "Ergotherapie Brunner in Pocking - Unser Wissen für Ihre Gesundheit",
     "author": "Ergotherapie Brunner",
-    "copyright": "© 2023 Ergotherapie Brunner",
     "seo": {
       "keywords": "Ergotherapie, Pocking, Gesundheit, Therapie",
       "robots": "index, follow",
       "google_site_verification": ""
     },
     "geo": {
-      "latitude": "48.4011",
-      "longitude": "13.3128",
+      "latitude": "48.4045",
+      "longitude": "13.3113",
       "region": "BY",
       "placename": "Pocking"
     },
     "business": {
       "name": "Ergotherapie Brunner",
-      "image": "cover.jpg",
+      "image": "cover.webp",
       "address": {
-        "streetAddress": "Musterstraße 1",
+        "streetAddress": "Passauer Str. 32a",
         "addressLocality": "Pocking",
         "postalCode": "94060",
         "addressCountry": "DE"
       },
-      "telephone": "+498031123456",
-      "url": "https://web-sb.de",
-      "email": "info@ergotherapie-brunner.de",
-      "openingHours": ["Mo 08:00-12:00", "Tu 08:00-12:00", "We 08:00-12:00", "Th 08:00-12:00", "Fr 08:00-12:00"],
-      "priceRange": "€€"
+      "telephone": "+498531135880",
+      "url": "https://ergo-brunner.de",
+      "email": "info@ergo-brunner.de",
+      "openingHours": ["Mo 08:00-17:00", "Tu 08:00-17:00", "We 08:00-17:00", "Th 08:00-17:00", "Fr 08:00-13:00"],
+      "priceRange": "€"
     }
   },
   "module": {

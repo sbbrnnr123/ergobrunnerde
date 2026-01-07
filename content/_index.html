@@ -33,65 +33,43 @@ sitemap:
     }
   }
 </style>
-<section id="hero" style="position: relative; height: 80vh; display: flex; flex-direction: column; gap: 1rem; justify-content: center; align-items: center; color: #fff; overflow: hidden">
-  <div class="img-container" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%">
-    <img src="/cover.webp" alt="Hero Bild" style="width: 100%; height: 100%; object-fit: cover; max-height: 100%; border-radius: 0" loading="lazy" />
+<section class="hero-section">
+  <div class="hero-img-container" style="">
+    <img class="hero-img" src="/cover.webp" alt="Hero Bild" loading="lazy" />
   </div>
-  <div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: radial-gradient(#00000055 50%, transparent)"></div>
+  <div class="hero-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: radial-gradient(#0000007d 50%, #00000033)"></div>
   <h1>Ergotherapie Brunner in Pocking</h1>
   <p>Unser Wissen für Ihre Gesundheit</p>
   <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center">
-    <a class="btn">{{< icon "google" >}}</a>
-    <a class="btn">{{< icon "facebook" >}}</a>
-    <a class="btn">{{< icon "instagram" >}}</a>
-    <a class="btn">{{< icon "youtube" >}}</a>
-    <a class="btn">{{< icon "tiktok" >}}</a>
-    <a class="btn">{{< icon "twitter" >}}</a>
-    <a class="btn">{{< icon "linkedin" >}}</a>
-    <a class="btn">{{< icon "pinterest" >}}</a>
-    <a class="btn">{{< icon "snapchat" >}}</a>
-    <a class="btn">{{< icon "whatsapp" >}}</a>
+    <a class="btn" href="mailto:info@ergo-brunner.de" aria-label="E-Mail schreiben">{{< icon "email" >}}</a>
+    <a class="btn" href="tel:+498531135880" aria-label="Anrufen">{{< icon "phone" >}}</a>
+    <a class="btn" target="_blank" href="https://www.google.com/maps?q=Ergotherapie+Brunner,+Passauer+Str.+32a,+94060+Pocking" aria-label="Anfahrt planen">{{< icon "location" >}}</a>
   </div>
-  <a href="/termin/" class="btn">{{< icon "whatsapp" >}} Termin vereinbaren</a>
+  <a href="/kontakt/" class="btn">{{< icon "calendar" >}} Termin vereinbaren</a>
 </section>
 
-<section class="flex-col-reverse">
-  <div>
-    <h2>Über uns</h2>
-    <p>Wir sind seit über 15 Jahren in Pocking und Umgebung tätig. Unser Wissen für Ihre Gesundheit – wir helfen Ihnen, Ihre Fähigkeiten im Alltag zurückzugewinnen.</p>
-    <a href="/termin/" class="btn">Termin vereinbaren</a>
-    <a href="/termin/" class="btn">{{< icon "whatsapp" >}} Termin vereinbaren</a>
-  </div>
-  <div>
-    <img src="/logo.webp" alt="Titelbild" loading="lazy" />
-  </div>
-</section>
-
-<section id="ueber-uns" class="flex-col">
-  <div class="img-container">
-    <img src="/raum.webp" alt="Titelbild" loading="lazy" />
-  </div>
-  <div>
-    <h2>Über uns</h2>
-    <p>Wir sind seit über 15 Jahren in Pocking und Umgebung tätig. Unser Wissen für Ihre Gesundheit – wir helfen Ihnen, Ihre Fähigkeiten im Alltag zurückzugewinnen.</p>
-    <h3>Werde Teil unseres Teams</h3>
-    <a href="/stellenangebote/">Stellenangebote</a>
-  </div>
-</section>
 <section id="leistungen" class="flex-col">
-  <div class="img-container">
+  <div>
     <img src="/raum.webp" alt="Titelbild" loading="lazy" />
   </div>
   <div>
     <h2>Unsere Leistungen</h2>
-    <h3>Neurologie</h3>
-    <p>Rehabilitation nach Schlaganfall, bei Parkinson oder Multipler Sklerose zur Wiedererlangung von Alltagsfähigkeiten.</p>
-    <h3>Neurologie</h3>
-    <p>Rehabilitation nach Schlaganfall, bei Parkinson oder Multipler Sklerose zur Wiedererlangung von Alltagsfähigkeiten.</p>
-    <h3>Neurologie</h3>
-    <p>Rehabilitation nach Schlaganfall, bei Parkinson oder Multipler Sklerose zur Wiedererlangung von Alltagsfähigkeiten.</p>
-    <h3>Neurologie</h3>
-    <p>Rehabilitation nach Schlaganfall, bei Parkinson oder Multipler Sklerose zur Wiedererlangung von Alltagsfähigkeiten.</p>
+    <p>Wir unterstützen Menschen dabei, ihren Alltag selbstständig zu meistern nach neurologischen Erkrankungen, im Alter, nach Verletzungen oder Operationen sowie bei seelischen Belastungen.</p>
+    <p>Unser Ziel ist es, Fähigkeiten wie Anziehen, Kochen, Bewegung und den Umgang mit anderen wieder zu stärken und Lebensqualität zurückzugeben.</p>
+    <a href="/kontakt/" class="btn">{{< icon "calendar" >}} Termin vereinbaren</a>
+  </div>
+</section>
+
+<section class="flex-col">
+  <div>
+    <img src="/cover.webp" alt="Titelbild" loading="lazy" />
+  </div>
+  <div>
+    <h2>Über uns</h2>
+    <p>Wir sind seit über 20 Jahren in Pocking und Umgebung aktiv und arbeiten als kleines, erfahrenes Team eng zusammen.</p>
+    <p>Wir begleiten jede:n individuell und fördern mit Fachwissen und Einfühlungsvermögen Selbstständigkeit und Wohlbefinden.</p>
+    <h3>Werde Teil unseres Teams</h3>
+    <a href="/stellenangebote/" class="btn">{{< icon "business_center" >}} Stellenangebote</a>
   </div>
 </section>
 <section>
