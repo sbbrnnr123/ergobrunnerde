@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ergobrunner.web-sb.de//sitemap.xml
