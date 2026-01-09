@@ -47,6 +47,18 @@ hugo
 
 echo "Deploy erfolgreich abgeschlossen!"
 
+# Schritt 7: Git add, commit und push
+echo "Führe git add . aus..."
+git add .
+
+echo "Führe git commit aus..."
+git commit -m "Deploy update"
+
+echo "Führe git push aus..."
+git push
+
+echo "Git-Operationen abgeschlossen!"
+
 # Zusätzliche Hugo-Befehle (nicht Teil des Deploy-Skripts, nur als Referenz):
 # Lokaler Server:
 # hugo server --bind 0.0.0.0 --baseURL http://$(hostname -I | awk '{print $1}'):1313
