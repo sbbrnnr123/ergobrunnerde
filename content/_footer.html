@@ -7,12 +7,11 @@ build:
   render: never
 ---
 
-<div style="display: flex; flex-direction: column; justify-content: center; gap: 1rem">
-  <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center">
-    <a class="btn" href="mailto:info@ergo-brunner.de" aria-label="E-Mail schreiben">{{< icon "email" >}}</a>
-    <a class="btn" href="tel:+498531135880" aria-label="Anrufen">{{< icon "phone" >}}</a>
-    <a class="btn" target="_blank" href="https://www.google.com/maps?q=Ergotherapie+Brunner,+Passauer+Str.+32a,+94060+Pocking" aria-label="Anfahrt planen">{{< icon "location" >}}</a>
-  </div>
-  <p><a href="/impressum">Impressum</a> <a href="/datenschutz">Datenschutz</a></p>
-  {{< copyright >}}
+<div class="btn-group">
+  <a class="btn" href="mailto:info@ergo-brunner.de" aria-label="E-Mail schreiben">{{< icon "email" >}}</a>
+  <a class="btn" href="tel:+498531135880" aria-label="Anrufen">{{< icon "phone" >}}</a>
+  <a class="btn" target="_blank" href="https://www.google.com/maps?q=Ergotherapie+Brunner,+Passauer+Str.+32a,+94060+Pocking" aria-label="Anfahrt planen">{{< icon "location" >}}</a>
 </div>
+<a href="/impressum">Impressum</a>
+<a href="/datenschutz">Datenschutz</a>
+{{< copyright >}}
