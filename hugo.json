@@ -1,5 +1,5 @@
 {
-  "baseURL": "https://ergo-brunner.de",
+  "baseURL": "https://www.ergo-brunner.de",
   "languageCode": "de-de",
   "title": "Ergotherapie Brunner in Pocking - Unser Wissen für Ihre Gesundheit",
   "minify": true,
@@ -53,7 +53,7 @@
         "addressCountry": "DE"
       },
       "telephone": "+498531135880",
-      "url": "https://ergo-brunner.de",
+      "url": "https://www.ergo-brunner.de",
       "email": "info@ergo-brunner.de",
       "openingHours": ["Mo 08:00-17:00", "Tu 08:00-17:00", "We 08:00-17:00", "Th 08:00-17:00", "Fr 08:00-13:00"],
       "priceRange": "€"
