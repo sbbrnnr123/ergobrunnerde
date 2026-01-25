@@ -1,46 +1,53 @@
 ---
-title: "Startseite"
+cover: "cover.webp"
+title: "Start"
 description: "Willkommen bei Ergotherapie Brunner in Pocking. Wir bieten professionelle Ergotherapie bei motorischen oder neurologischen Problemen. Jetzt Termin vereinbaren!"
-date: 2025-12-15
+icon: "home"
+navbar: true
 weight: 1
-header: false
-layout: "single"
 sitemap:
   priority: 1.0
 ---
 
 <section class="hero-section">
-  {{< img src="cover.webp" width="1500x" alt="Ergotherapie Brunner" class="hero-img" >}}
+  <img src="cover.webp" data-width="1500x" alt="Ergotherapie Brunner" title="Ergotherapie Brunner" class="hero-img" />
 
   <div class="hero-overlay" style="background: radial-gradient(#00000040)"></div>
   <h1>Ergotherapie Brunner in Pocking</h1>
   <h2>Unser Wissen für Ihre Gesundheit</h2>
-  <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center">
-    <a class="btn" href="mailto:info@ergo-brunner.de" aria-label="E-Mail schreiben">{{< icon "email" >}}</a>
-    <a class="btn" href="tel:+498531135880" aria-label="Anrufen">{{< icon "phone" >}}</a>
-    <a class="btn" target="_blank" href="https://www.google.com/maps?q=Ergotherapie+Brunner,+Passauer+Str.+32a,+94060+Pocking" aria-label="Anfahrt planen">{{< icon "location" >}}</a>
+  <div class="btn-group">
+    <a class="btn" href="mailto:info@ergo-brunner.de" aria-label="E-Mail schreiben"><i>email</i></a>
+    <a class="btn" href="tel:+498531135880" aria-label="Anrufen"><i>phone</i></a>
+    <a class="btn" target="_blank" href="https://www.google.com/maps?q=Ergotherapie+Brunner,+Passauer+Str.+32a,+94060+Pocking" aria-label="Anfahrt planen"><i>location</i></a>
   </div>
-  <a href="/kontakt/" class="btn">{{< icon "calendar" >}} Termin vereinbaren</a>
+  <a href="/kontakt/" class="btn"><i>calendar</i> Termin vereinbaren</a>
 </section>
 
-<section id="unsere-leistungen" class="flex-col">
-  <div>{{< img src="unsere-leistungen.webp" width="512x" alt="Unsere Leistungen">}}</div>
-  <div>
-    <h2>Unsere Leistungen</h2>
-    <p>Wir unterstützen Menschen dabei, ihren Alltag selbstständig zu meistern nach neurologischen Erkrankungen, im Alter, nach Verletzungen oder Operationen sowie bei seelischen Belastungen.</p>
-    <p>Unser Ziel ist es, alltägliche Fähigkeiten zu stärken und Lebensqualität zurückzugeben.</p>
-    <a href="/kontakt/" class="btn">{{< icon "calendar" >}} Termin vereinbaren</a>
+<section id="unsere-leistungen">
+  <div class="grid grid-lg">
+    <div class="grid-item">
+      <img src="unsere-leistungen.webp" data-width="512x" alt="Unsere Leistungen" title="Unsere Leistungen" />
+    </div>
+    <div class="grid-item">
+      <h2>Unsere Leistungen</h2>
+      <p>Wir unterstützen Menschen dabei, ihren Alltag selbstständig zu meistern nach neurologischen Erkrankungen, im Alter, nach Verletzungen oder Operationen sowie bei seelischen Belastungen.</p>
+      <p>Unser Ziel ist es, alltägliche Fähigkeiten zu stärken und Lebensqualität zurückzugeben.</p>
+      <a href="/kontakt/" class="btn"><i>calendar</i> Termin vereinbaren</a>
+    </div>
   </div>
 </section>
-
 <section id="ueber-uns" class="flex-col">
-  <div>{{< img src="ueber-uns.webp" width="512x" alt="Über uns">}}</div>
-  <div>
-    <h2>Über uns</h2>
-    <p>Wir sind seit über 20 Jahren in Pocking und Umgebung aktiv und arbeiten als kleines, erfahrenes Team eng zusammen.</p>
-    <p>Wir begleiten jede/n individuell und fördern mit Fachwissen und Einfühlungsvermögen Selbstständigkeit und Wohlbefinden.</p>
-    <h3>Werde Teil unseres Teams</h3>
-    <a href="/stellenangebote/" class="btn">{{< icon "business_center" >}} Stellenangebote</a>
+  <div class="grid grid-lg">
+    <div class="grid-item">
+      <img src="ueber-uns.webp" data-width="512x" alt="Unsere Leistungen" title="Unsere Leistungen" />
+    </div>
+    <div class="grid-item">
+      <h2>Über uns</h2>
+      <p>Wir sind seit über 20 Jahren in Pocking und Umgebung aktiv und arbeiten als kleines, erfahrenes Team eng zusammen.</p>
+      <p>Wir begleiten jede/n individuell und fördern mit Fachwissen und Einfühlungsvermögen Selbstständigkeit und Wohlbefinden.</p>
+      <h3>Werde Teil unseres Teams</h3>
+      <a href="/stellenangebote/" class="btn"><i>business_center</i> Stellenangebote</a>
+    </div>
   </div>
 </section>
 <section id="faq">

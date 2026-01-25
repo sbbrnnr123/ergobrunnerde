@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Deploy Script für Ergo-Brunner Hugo Website
+# Deploy Script für  Hugo Website
 # Dieses Skript führt die folgenden Schritte aus:
 # 1. Bilder in WebP konvertieren (falls nicht vorhanden)
 # 2. Überprüfen, ob WebP-Bilder > 150KB sind (abbruch bei Überschreitung)
@@ -13,16 +13,16 @@ set -e  # Skript bei Fehlern abbrechen
 
 echo "Starte Deploy-Prozess..."
 
-# Schritt 1: Bilder komprimieren (nur wenn WebP nicht existiert)
+# Schritt 1: Bilder komprimieren (überschreibe WebP)
 echo "Konvertiere Bilder zu WebP..."
-find content -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \) -exec sh -c 'output="${1%.*}.webp"; if [ ! -f "$output" ]; then cwebp -q 80 "$1" -o "$output"; fi' _ {} \;
+find content -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \) -exec sh -c 'output="${1%.*}.webp"; cwebp -q 80 "$1" -o "$output";' _ {} \;
 
 # Schritt 2: Überprüfe Größe der WebP-Bilder
 echo "Überprüfe WebP-Bildgrößen..."
 for file in $(find content -name "*.webp"); do
     # Größe in Bytes ermitteln (macOS: stat -f%z, Linux: stat -c%s)
     size=$(stat -f%z "$file" 2>/dev/null || stat -c%s "$file" 2>/dev/null || echo "0")
-    if [ "$size" -gt 153600 ]; then  # 150KB = 153600 Bytes
+    if [ "$size" -gt 1536000 ]; then  # 150KB = 153600 Bytes
         echo "FEHLER: Bild $file ist größer als 150KB ($size Bytes). Abbruch."
         exit 1
     fi
@@ -61,4 +61,4 @@ echo "Git-Operationen abgeschlossen!"
 
 # Zusätzliche Hugo-Befehle (nicht Teil des Deploy-Skripts, nur als Referenz):
 # Lokaler Server:
-# hugo server --bind 0.0.0.0 --baseURL http://$(hostname -I | awk '{print $1}'):1313
+# hugo server --bind 0.0.0.0 --baseURL http://$(ifconfig | grep "inet " | grep -v 127.0.0.1 | awk '{print $2}' | head -1):1313

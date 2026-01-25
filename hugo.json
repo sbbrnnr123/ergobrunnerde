@@ -24,11 +24,13 @@
     "icon": "/icon.webp",
     "cover": "/cover.webp",
     "colors": {
-      "background": "#ffffff",
+      "bg": "#ffffff",
       "text": "#000000",
-      "surface": "#f0f5f9",
-      "element_background": "#005387",
-      "element_text": "#ffffff"
+      "surface": "#00538711",
+      "btn": "#005387",
+      "btn_text": "#ffffff",
+      "btn_tonal": "#00538711",
+      "btn_tonal_text": "#0000000"
     },
     "description": "Ergotherapie Brunner in Pocking - Unser Wissen für Ihre Gesundheit",
     "author": "Ergotherapie Brunner",
