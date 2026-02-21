@@ -1,0 +1,7 @@
+{
+  "title": "Team",
+  "description": "Unser erfahrenes Team von Ergotherapeuten. Lerne die Therapeutinnen kennen, die dich unterstützen.",
+  "weight": 2,
+  "icon": "groups",
+"navbar": true
+}

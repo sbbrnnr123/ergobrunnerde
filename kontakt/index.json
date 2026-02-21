@@ -1,0 +1,10 @@
+{
+  "title": "Kontakt",
+  "description": "Kontaktieren Sie Ergo-Brunner in Pocking für Fragen oder Terminvereinbarungen. Hier finden Sie unsere Adresse, Telefonnummer, E-Mail und Anfahrtsplan. Wir freuen uns auf Sie.",
+  "icon": "contact",
+  "navbar": true,
+  "weight": 4,
+  "sitemap": {
+    "priority": 0.9
+  }
+}

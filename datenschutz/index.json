@@ -1,0 +1,10 @@
+{
+  "title": "Datenschutz",
+  "description": "Unsere Datenschutz&shy;erklärung informiert Sie umfassend über den Schutz Ihrer Daten und Ihre Rechte auf dieser Webseite.",
+  "header": false,
+  "weight": 100,
+  "icon": "lock",
+  "sitemap": {
+    "priority": 0.1
+  }
+}

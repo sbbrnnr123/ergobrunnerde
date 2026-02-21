@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ergo-brunner.de/sitemap.xml

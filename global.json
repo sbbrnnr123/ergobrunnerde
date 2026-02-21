@@ -1,0 +1,22 @@
+{
+  "site_name": "Ergotherapie Brunner",
+  "author": "Ergotherapie Brunner",
+  "url": "https://ergo-brunner.de",
+  "keywords": ["Ergotherapie", "Pocking", "Gesundheit", "Therapie"],
+  "address": "Passauer Str. 32a",
+  "city": "Pocking",
+  "zip": "94060",
+  "region": "BY",
+  "country": "DE",
+  "latitude": "48.4045",
+  "longitude": "13.3113",
+  "telephone": "+498531135880",
+  "email": "info@ergo-brunner.de",
+  "bg": "#ffffff",
+  "text": "#000000",
+  "surface": "#00538711",
+  "btn": "#005387",
+  "btn_text": "#ffffff",
+  "btn_tonal": "#00538711",
+  "btn_tonal_text": "#000000"
+}

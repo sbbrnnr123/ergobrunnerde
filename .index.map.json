@@ -1,0 +1,110 @@
+{
+  "/": {
+    "cover": "/cover.min.webp",
+    "title": "Start",
+    "description": "Willkommen bei Ergotherapie Brunner in Pocking. Wir bieten professionelle Ergotherapie bei motorischen oder neurologischen Problemen. Jetzt Termin vereinbaren!",
+    "icon": "home",
+    "weight": 1,
+    "date": null,
+    "list": false,
+    "navbar": false,
+    "kategorien": [],
+    "parent": null,
+    "children": [
+      "/404",
+      "/team",
+      "/stellenangebote",
+      "/kontakt",
+      "/datenschutz",
+      "/impressum"
+    ]
+  },
+  "/404": {
+    "cover": "/cover.min.webp",
+    "title": "404 - Seite nicht gefunden",
+    "description": "Die angeforderte Seite konnte nicht gefunden werden.",
+    "icon": "info",
+    "weight": 1,
+    "date": null,
+    "list": false,
+    "navbar": false,
+    "kategorien": [],
+    "parent": "/",
+    "children": []
+  },
+  "/datenschutz": {
+    "cover": "/cover.min.webp",
+    "title": "Datenschutz",
+    "description": "Unsere Datenschutz&shy;erklärung informiert Sie umfassend über den Schutz Ihrer Daten und Ihre Rechte auf dieser Webseite.",
+    "icon": "lock",
+    "weight": 100,
+    "date": null,
+    "header": false,
+    "sitemap": {
+      "priority": 0.1
+    },
+    "list": false,
+    "navbar": false,
+    "kategorien": [],
+    "parent": "/",
+    "children": []
+  },
+  "/impressum": {
+    "cover": "/cover.min.webp",
+    "title": "Impressum",
+    "description": "Das Impressum der Ergotherapie-Praxis Ergo-Brunner in Pocking: Hier finden Sie alle gesetzlich vorgeschriebenen rechtlichen Informationen und Kontaktdaten.",
+    "icon": "info",
+    "weight": 100,
+    "date": null,
+    "sitemap": {
+      "priority": 0.1
+    },
+    "list": false,
+    "navbar": false,
+    "kategorien": [],
+    "parent": "/",
+    "children": []
+  },
+  "/kontakt": {
+    "cover": "/cover.min.webp",
+    "title": "Kontakt",
+    "description": "Kontaktieren Sie Ergo-Brunner in Pocking für Fragen oder Terminvereinbarungen. Hier finden Sie unsere Adresse, Telefonnummer, E-Mail und Anfahrtsplan. Wir freuen uns auf Sie.",
+    "icon": "contact",
+    "weight": 4,
+    "date": null,
+    "navbar": true,
+    "sitemap": {
+      "priority": 0.9
+    },
+    "list": false,
+    "kategorien": [],
+    "parent": "/",
+    "children": []
+  },
+  "/stellenangebote": {
+    "cover": "/cover.min.webp",
+    "title": "Jobs",
+    "description": "Werden Sie Teil des Teams bei Ergo-Brunner! Wir suchen motivierte Ergotherapeuten (m/w/d) in Pocking. Attraktive Konditionen & tolle Kollegen warten. Jetzt bewerben!",
+    "icon": "business_center",
+    "weight": 3,
+    "date": null,
+    "navbar": true,
+    "list": false,
+    "kategorien": [],
+    "parent": "/",
+    "children": []
+  },
+  "/team": {
+    "cover": "/cover.min.webp",
+    "title": "Team",
+    "description": "Unser erfahrenes Team von Ergotherapeuten. Lerne die Therapeutinnen kennen, die dich unterstützen.",
+    "icon": "groups",
+    "weight": 2,
+    "date": null,
+    "navbar": true,
+    "list": false,
+    "kategorien": [],
+    "parent": "/",
+    "children": []
+  }
+}
