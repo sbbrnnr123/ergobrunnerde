@@ -6,7 +6,7 @@
 ---
 # Ergo&shy;therapie Brunner in Pocking
 Unser Wissen für Ihre Gesundheit
-[E-Mail](mailto:info@ergo-brunner.de) 
+[E-Mail schreiben](mailto:info@ergo-brunner.de) 
 [Anrufen](tel:+498531135880) 
 [Anfahrt planen](https://www.google.com/maps?q=Ergotherapie+Brunner,+Passauer+Str.+32a,+94060+Pocking)
 [Termin vereinbaren](/kontakt/)

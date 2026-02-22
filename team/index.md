@@ -24,7 +24,7 @@ Ergotherapeutin
 ---
 ![Claudia Moser](claudia.min.webp)
 ### Claudia Moser
-Sekretariat
+Empfang & Verwaltung
 ---
 ---
 <i>person_add_alt</i>

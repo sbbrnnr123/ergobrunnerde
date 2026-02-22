@@ -1,5 +1,5 @@
 -
-# Datenschutz&shy;erklärung
+# Daten&shy;schutz&shy;erklärung
 Der Schutz Ihrer persönlichen Daten ist uns ein wichtiges Anliegen. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutz&shy;erklärung. Diese Website ist auf Datensparsamkeit ausgelegt und dient ausschließlich der Bereitstellung von Informationen.
 -
 -
